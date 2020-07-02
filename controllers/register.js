@@ -1,3 +1,5 @@
+// refactor this using async await functions?
+
 const handleRegister = (req, res, db, bcrypt) => {
 	const { email, password, name } = req.body;
 	if (!email || !name || !password) {
